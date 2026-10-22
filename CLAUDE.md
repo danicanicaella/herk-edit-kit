@@ -36,6 +36,13 @@ For one stage, load the matching local skill:
 | Timeline animation | `gsap` |
 | Install HyperFrames catalog blocks | `hyperframes-registry` |
 
+## Default style
+
+Every new video uses `style-references/style_1/STYLE.md` as its style
+reference unless the user names another style. Read it before planning or
+designing. Its source video is `style-references/style_1/reference.mp4`. Write the
+project's DESIGN.md from it. The user's explicit requests override it.
+
 Before a creative session read `MOTION_PHILOSOPHY.md` and the project's DESIGN.md.
 The philosophy's fast sizzle pacing is a style reference. Give educational speech
 room to breathe. The project brief controls pacing, palette, and typography.
