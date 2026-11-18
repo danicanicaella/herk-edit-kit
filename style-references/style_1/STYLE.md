@@ -121,3 +121,13 @@ panel slides down over the top of the frame and expands.
 - Each video is an episode of a named series with a number (`#051`): the series
   card opens and closes the video, and the speaker closes with a follow call.
   Ask the user for their series name and episode number.
+
+## Opening title (standing user preference, every video)
+
+The first beats always use the "title above the head" look: a big burgundy-red Anton title (about #9B1B14, flat, no
+shadow) across the top of the frame above the speaker's head, a small italic serif line beside or under it, then the
+next beat swaps to a new big line. Keep it inside the safe zone (top y >= 269). The title sits BEHIND the speaker:
+cut the opening seconds out with `npx hyperframes remove-background` and play the cutout on top (same start, same
+media start), so hair may overlap the letters but the face is never covered. When the head leaves little room, use
+one big line sized to fit above the head rather than a two-line stack. No "series" or episode labels unless asked.
+Reference implementation: video-projects/reel-v5 (build/build.py, "opening" section).
