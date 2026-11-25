@@ -112,9 +112,13 @@ panel slides down over the top of the frame and expands.
 
 - Spoken voice is the lead and is always clear.
 - Light music bed under the whole piece, well below the voice.
-- Soft pops or clicks on diagram element entries; a gentle whoosh on wipes.
-  The `media-use` skill's bundled sound effects (pop, click-soft, whoosh-short)
-  cover this for free.
+- A short transition sound on diagram element entries (see the standing preference below: never the pop); a gentle whoosh on wipes.
+
+**Standing user preference (sound):** never use the HeyGen "pop" (id 3f7016321284f57b, "a single, brief, resonant
+synthetic pop sound") in any video. Where a pop would go (labels, pills, small lines appearing), use the user's
+"Transition 10" sound. It is not in the HeyGen library (it is likely a CapCut or Instagram sound name), so ask the
+user for the file if it is not already in the project; until then use the quick HeyGen sweeps (ids df8c73ce46972f98
+and 5ae247cc40f79d97).
 
 ## Branding
 
